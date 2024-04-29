@@ -1,0 +1,18 @@
+
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+
+
+build:
+  version: 3.0
+
+accounts:
+  message: "Welcome to EazyBank accounts related Prod APIs "
+  contactDetails:
+    name: "John Dheree - Developer"
+    email: "johndheree@eazybank.com"
+  onCallSupport:
+    - (555) 555-9987
+    - (555) 523-9988
