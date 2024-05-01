@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/section2/McProj01Sc02-Accounts" />
+    <file type="web" url="file://$PROJECT_DIR$/section2/McProj01Sc02-Cards" />
+    <file type="web" url="file://$PROJECT_DIR$/section2/McProj01Sc02-Loans" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/section6/Accounts/pom.xml" />
+        <option value="$PROJECT_DIR$/section6/Cards/pom.xml" />
+        <option value="$PROJECT_DIR$/section6/Loans/pom.xml" />
+        <option value="$PROJECT_DIR$/section4/McProj01Sc02-Cards/pom.xml" />
+        <option value="$PROJECT_DIR$/section4/McProj01Sc02-Loans/pom.xml" />
+        <option value="$PROJECT_DIR$/section2/McProj01Sc02-Accounts/pom.xml" />
+        <option value="$PROJECT_DIR$/section7/Accounts/pom.xml" />
+        <option value="$PROJECT_DIR$/section7/Cards/pom.xml" />
+        <option value="$PROJECT_DIR$/section7/Loans/pom.xml" />
+        <option value="$PROJECT_DIR$/section7/ConfigServer/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
