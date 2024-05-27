@@ -1,0 +1,38 @@
+spring:
+  application:
+    name: ConfigServer
+
+  profiles:
+    active: git
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Hemanth328/config.git
+          force-pull: true
+          timeout: 5
+          default-label : master
+          clone-on-start: true
+
+server:
+  port: 8071
+
+encrypt:
+  key: H11E12M97A01N56T1997H12814
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  health:
+    livenessstate:
+      enabled: true
+    readinessstate:
+      enabled: true
+
+  endpoint:
+    health:
+      probes:
+        enabled: true
